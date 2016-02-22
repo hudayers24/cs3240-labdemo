@@ -1,8 +1,7 @@
 #Hudson Ayers hra5th
 
-
-def greeting(msg):
-    print(msg)
+from helper import greeting
 
 if __name__ == '__main__':
-    greeting('Hello')
+    msg = "hello"
+    greeting(msg)
